@@ -43,7 +43,8 @@ int maximalRectangle(vector<vector<char> > &matrix) {
 
 int main() {
 
-	vector<vector<char> > input(1, vector<char>(1,'1'));
+	char arr[2] = {'0','1'}; 
+	vector<vector<char> > input(1, vector<char>(arr, arr+2));
 	cout << maximalRectangle(input) <<endl;
 return 0;
 }
